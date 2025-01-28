@@ -1,18 +1,27 @@
 import { BentoGrid, BentoCard } from "./components/ui/bento-grid";
-
+import { Github } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-neutral-950 to-neutral-900 p-6 md:p-12">
       <div className="mx-auto max-w-5xl relative">
-        <Link
-          href="https://behaviocrew.com"
-          className="absolute -top-2 right-0 px-4 py-2 rounded-lg bg-neutral-800 text-white/90 hover:bg-neutral-700 transition-colors duration-200"
-          target="_blank"
-        >
-          Visit Behavio
-        </Link>
+        <div className="absolute -top-2 right-0 flex items-center gap-3">
+          <Link
+            href="https://github.com/behavio1/AISelfImage"
+            className="p-2 rounded-lg bg-neutral-800 text-white/90 hover:bg-neutral-700 transition-colors duration-200 flex items-center justify-center"
+            target="_blank"
+          >
+            <Github className="w-5 h-5" />
+          </Link>
+          <Link
+            href="https://behaviocrew.com"
+            className="px-4 py-2 rounded-lg bg-neutral-800 text-white/90 hover:bg-neutral-700 transition-colors duration-200"
+            target="_blank"
+          >
+            Visit Behavio
+          </Link>
+        </div>
         <h1 className="mb-4 text-4xl font-bold text-white/90">AI Self Image</h1>
         <p className="mb-8 text-lg text-neutral-400">
           Explore how artificial intelligence perceives and visualizes itself.

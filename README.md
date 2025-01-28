@@ -2,6 +2,10 @@
 
 An interactive web application exploring how artificial intelligence visualizes and perceives itself, built with Next.js, TypeScript, and Three.js.
 
+## Live Preview
+
+Experience the application live at: [https://aiimage.behavio.one/](https://aiimage.behavio.one/)
+
 ## Overview
 
 AI Self Image is a unique project that provides an interactive platform for exploring AI self-perception through visual and conversational interfaces. The application combines advanced shader programming, real-time 3D graphics, and AI dialogue to create an immersive experience.

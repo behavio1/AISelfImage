@@ -33,7 +33,7 @@ export function Chat({ messages, aiAvatarSrc }: ChatProps) {
       </CardHeader>
 
       <CardContent className="p-4 sm:p-6">
-        <div className="h-[500px] sm:h-[600px] overflow-y-auto space-y-3 sm:space-y-4 p-3 sm:p-4 rounded-lg bg-neutral-950/50">
+        <div className="h-[500px] sm:h-[700px] overflow-y-auto space-y-3 sm:space-y-4 p-3 sm:p-4 rounded-lg bg-neutral-950/50 custom-scrollbar">
           {messages.map((message, index) => (
             <div
               key={index}

@@ -187,7 +187,7 @@ export function ColorfulBoxShader({ className = "" }: { className?: string }) {
 
   return (
     <div className="flex flex-col gap-3 sm:gap-4">
-      <div className="w-full aspect-square">
+      <div className="w-full aspect-[4/3]">
         <canvas
           ref={canvasRef}
           className={`w-full h-full ${className}`}
